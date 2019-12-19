@@ -1,0 +1,32 @@
+{
+  "name": "cmq-rpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cmq-rpc.js",
+  "scripts": {
+    "test": "set DEBUG=*,-knex:client & node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmq-rpc/node-cmq-rpc.git"
+  },
+  "keywords": [
+    "cmq",
+    "tencentcloud",
+    "rpc"
+  ],
+  "author": "1147678303@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmq-rpc/node-cmq-rpc/issues"
+  },
+  "homepage": "https://github.com/cmq-rpc/node-cmq-rpc#readme",
+  "dependencies": {
+    "better-queue": "^3.8.10",
+    "cmq-sdk": "1.1.0",
+    "debug": "^4.1.1",
+    "events": "^3.0.0",
+    "once": "^1.4.0",
+    "util": "^0.11.1"
+  }
+}

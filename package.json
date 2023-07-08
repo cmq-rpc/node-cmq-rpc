@@ -23,7 +23,7 @@
   "homepage": "https://github.com/cmq-rpc/node-cmq-rpc#readme",
   "dependencies": {
     "better-queue": "^3.8.10",
-    "cmq-sdk": "1.1.0",
+    "cmq-sdk": "3.0.1",
     "debug": "^4.1.1",
     "events": "^3.0.0",
     "once": "^1.4.0",
